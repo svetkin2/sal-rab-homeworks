@@ -20,7 +20,7 @@ function renderProductsCards(json){
 // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
     clearProducts();
 // Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
-    products = parseProducts(json);
+    let products = parseProducts(json);
 // Запишите в переменную length значение свойства products.length
     let length = products.length;
 // Напишите цикл, в котором перебираете все products от 0 до (length)
